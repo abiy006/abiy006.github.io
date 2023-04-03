@@ -88,6 +88,7 @@ The protofolio is able to function (responsive to) both on the mobile and deskto
 - **[linter_implementation_with_html_css]**
 - **[linter_implementation_with_gitignore]**
 - **[implementing_standard_readme_file]**
+- **[implementing_aboutmyself_contactme_feature]**
 - **[implementing_figma_design_background]**
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
