@@ -731,6 +731,7 @@ section.contact_me_mobile > hr {
   margin-left: 10px;
   margin-right: 10px;
   margin-top: 1rem;
+  width: 100%;
 }
 
 .desk_main_content h1 {
@@ -762,6 +763,7 @@ section.contact_me_mobile > hr {
   background-position: center;
   background-size: cover;
   border-radius: 8px;
+  width: 100%;
 }
 
 .desk_main_img2 {
