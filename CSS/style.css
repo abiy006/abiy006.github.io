@@ -38,7 +38,7 @@ html {
   width: 100%;
   height: auto;
   background-color: #f7f7f9;
-  overflow-x: auto;
+  overflow-x: hidden;
 }
 
 body {
@@ -108,6 +108,7 @@ header {
 
 .lets-connect {
   font-size: 16px;
+  font-weight: 400;
   font-family: 'Poppins', sans-serif, Courier, monospace;
   min-width: 117px;
   max-height: 24px;
@@ -206,7 +207,6 @@ h2 {
   font-family: 'Poppins', system-ui, Courier, monospace;
   margin-top: 20px;
   width: 295px;
-  height: 3rem;
   color: #172b4d;
   text-align: left;
   font-style: normal;
@@ -308,7 +308,7 @@ section.ams {
   margin-bottom: 5rem;
   padding-left: 1rem;
   padding-top: 100px;
-  overflow-x: auto;
+  overflow-x: hidden;
 }
 
 .mobile-about-myself {
@@ -324,7 +324,6 @@ section.ams {
   justify-content: center;
   color: #fff;
   width: 100%;
-  height: 56px;
   font-family: 'Poppins', sans-serif, Courier, monospace;
   font-style: normal;
   font-weight: 700;
@@ -367,6 +366,7 @@ section.ams p {
   color: #7f8cff;
   text-align: left;
   margin-top: 10px;
+  font-weight: 400;
 }
 
 .letconnect_text a {
@@ -428,6 +428,18 @@ section.ams p {
   text-decoration: none;
 }
 
+.mobile-menu-page-class ul {
+  display: flex;
+  flex-direction: column;
+  list-style: none;
+  align-items: start;
+}
+
+.mobile-menu-page-class ul li {
+  display: flex;
+  margin-bottom: 1rem;
+}
+
 .About-languages ul {
   display: flex;
   flex-direction: column;
@@ -448,6 +460,16 @@ section.ams p {
   align-items: center;
   justify-content: center;
   margin-bottom: 1rem;
+}
+
+.mobile-menu-page-class ul li a {
+  text-decoration: none;
+  color: #fff;
+  font-size: 2rem;
+  font-family: 'Poppins', sans-serif, Courier, monospace;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 3rem;
 }
 
 .About-languages ul ul li a {
@@ -682,9 +704,10 @@ section.contact_me_mobile > hr {
 
 .desktop-landing-content .lets-con-desk-txt {
   font-size: 16px;
+  font-weight: 400;
   font-family: 'Poppins', sans-serif, Courier, monospace;
   min-width: 117px;
-  max-height: 24px;
+  max-height: 2rem;
   color: #7f8cff;
   text-align: left;
   margin-bottom: 0.5rem;
@@ -749,7 +772,6 @@ section.contact_me_mobile > hr {
   font-size: 16px;
   font-style: normal;
   font-family: 'Poppins', sans-serif, Courier, monospace;
-  height: 50px;
   color: #344563;
   text-align: left;
   margin-top: 2rem;
@@ -824,6 +846,7 @@ section.desktop_ams .about_part1 h2 {
   color: #091e42;
   text-align: left;
   margin-top: 10px;
+  height: auto;
 }
 
 section.desktop_ams .about_part1 p {
@@ -833,7 +856,6 @@ section.desktop_ams .about_part1 p {
   font-size: 16px;
   line-height: 24px;
   font-family: 'Poppins', system-ui, Courier, monospace;
-  height: 114px;
   margin-left: 1px;
   color: #344563;
   text-align: left;
@@ -1045,4 +1067,23 @@ section.desktop_ams .about_part2 ul li ul li {
   background-color: #fff;
   border: 1px solid #aaa;
   border-radius: 8px;
+}
+
+.blur {
+  filter: blur(8px);
+}
+
+.mobile-menu-page-class {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  margin-left: 1rem;
+}
+
+.mobile-menu-close-class {
+  width: 7%;
+  margin-top: 3rem;
+  margin-left: 80%;
+  color: #fff;
 }
