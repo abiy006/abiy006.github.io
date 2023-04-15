@@ -4,22 +4,36 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="CSS/style.css">
+    <link rel="stylesheet" href="./CSS/style.css">
+    <link rel="stylesheet" href="./CSS/dynamic.css">
     <title>Abiy Portfolio</title>
 </head>
 
 <body>
-   <section class="mobile-section">
-    <header>
+
+    <header id="mobileHeader">
         <ul>
-            <li><a href="#"><img src="Images\MyLogo.svg" alt="" width="76px" height="20px"></a></li>
+            <li><a href="#"><img src="Images\MyLogo.svg" alt="My Logo" width="76px" height="20px"></a></li>
             <li>
-               <nav><img src="Images\menu.svg" alt="" width="18px" height="12px"></nav>
+               <nav><img src="Images\menu.svg" alt="Menu Icon" width="18px" height="12px" id="mobileMenuid"></nav>
             </li>
          </ul>
     </header>
-      <section class="mobile-landing">
-         <h1> <span class="wrapper">I'm Mariane</span> <span class="wrapper">Glad to see</span> <span class="wrapper">you!</span></h1>
+    <header id="desktopHeader">
+      <div class="header-logo">
+         <li><a href="#"><img src="Images\MyLogo.svg" alt="MyLogo" width="76px" height="20px"></a></li>
+      </div>
+      <div class="header-nav-taps">
+         <ul>
+            <li><a href="#">Portofilo</a></li>
+            <li><a href="#">About</a></li>
+            <li><a href="#">Contact</a></li>
+         </ul>
+      </div>
+   </header>
+    
+      <section id="mobile-landing-id" class="mobile-landing">
+         <h1> <span class="wrapper">I'm Abiy</span> <span class="wrapper">Glad to see</span> <span class="wrapper">you!</span></h1>
          <p>
                I'm a software developer! I can help you
                build a product , feature or website Look
@@ -28,76 +42,39 @@
                have a project you need coded, don't
                hestiate to contact me.
             </p>
-            <div class="lets-connect">LET'S CONNECT</div>
+            <h2 class="lets-connect">LET'S CONNECT</h2>
             <div class="lets-connect-icons">
                <ul>
-                  <li><a href="https://twitter.com/Abiy62463489"><img src="Images\Vector1.svg" alt="" width="19.99px" height="19.96px"></a></li>
-                  <li><a href="https://www.linkedin.com/in/abiy-hussen-aman-194587183/"><img src="Images\Vector2.svg" alt="" width="20px" height="20px"></a></li>
-                  <li><a href="#"><img src="Images\Vector3.svg" alt="" width="20px" height="16px"></a></li>
-                  <li><a href="https://github.com/abiy006"><img src="Images\Vector4.svg" alt="" width="17.99px" height="20px"></a></li>
-                  <li><a href="#"><img src="Images\Vector5.svg" alt="" width="14.17px" height="20px"></a></li>
+                  <li><a href="https://twitter.com/Abiy62463489"><img src="Images\Vector1.svg" alt="Twitter icon" width="19.99px" height="19.96px"></a></li>
+                  <li><a href="https://www.linkedin.com/in/abiy-hussen-aman-194587183/"><img src="Images\Vector2.svg" alt="Linkedin icon" width="20px" height="20px"></a></li>
+                  <li><a href="#"><img src="Images\Vector3.svg" alt="M icon" width="20px" height="16px"></a></li>
+                  <li><a href="https://github.com/abiy006"><img src="Images\Vector4.svg" alt="Github icon" width="17.99px" height="20px"></a></li>
+                  <li><a href="#"><img src="Images\Vector5.svg" alt="Hand icon" width="14.17px" height="20px"></a></li>
                </ul>
             </div>
       </section>
-      <section class="card-section">
-         <section class="card-1">
-               <div class="card-1-bg"></div>
-               <h2>Tonic</h2>
-               <div class="canopy"></div>
-               <p>A daily selection of privately personalized reads; no accounts or sign-ups required.</p>
-               <div class="lang-btn">
-                  <ul>
-                     <li><a href="#"><button>html</button></a></li>
-                     <li><a href="#"><button>css</button></a></li>
-                     <li><a href="#"><button>javaScript</button></a></li>
-                  </ul>
-               </div>
-               <div class="see-project-btn"><button>See Project</button></div>
-         </section>
-         <section class="card-2">
-               <div class="card-2-bg"></div>
-               <h2>Tonic</h2>
-               <div class="canopy"></div>
-               <p>A daily selection of privately personalized reads; no accounts or sign-ups required.</p>
-               <div class="lang-btn">
-                  <ul>
-                     <li><a href="#"><button>html</button></a></li>
-                     <li><a href="#"><button>css</button></a></li>
-                     <li><a href="#"><button>javaScript</button></a></li>
-                  </ul>
-               </div>
-               <div class="see-project-btn"><button>See Project</button></div>
-         </section>
-         <section class="card-3">
-               <div class="card-3-bg"></div>
-               <h2>Tonic</h2>
-               <div class="canopy"></div>
-               <p>A daily selection of privately personalized reads; no accounts or sign-ups required.</p>
-               <div class="lang-btn">
-                  <ul>
-                     <li><a href="#"><button>html</button></a></li>
-                     <li><a href="#"><button>css</button></a></li>
-                     <li><a href="#"><button>javaScript</button></a></li>
-                  </ul>
-               </div>
-               <div class="see-project-btn"><button>See Project</button></div>
-         </section>
-         <section class="card-4">
-               <div class="card-4-bg"></div>
-               <h2>Tonic</h2>
-               <div class="canopy"></div>
-               <p>A daily selection of privately personalized reads; no accounts or sign-ups required.</p>
-               <div class="lang-btn">
-                  <ul>
-                     <li><a href="#"><button>html</button></a></li>
-                     <li><a href="#"><button>css</button></a></li>
-                     <li><a href="#"><button>javaScript</button></a></li>
-                  </ul>
-               </div>
-               <div class="see-project-btn"><button>See Project</button></div>
-         </section>
+      <section class="desktop-landing">
+         <div class="desktop-landing-content">
+            <h1><span class="wrapper">I'm Alexandra.</span> <span class="wrapper">Glad to see you!</span></h1>
+            <p>
+               I'm a software developer! I can help you build a product ,
+               feature or website Look through some of my work and experience!
+               If you like what you see and have a project you need coded, don't hestiate to contact me.
+            </p>
+            <h2 class="lets-con-desk-txt">LET'S CONNECT</h2>
+            <div class="lets-con-desk-icon">
+               <ul>
+                  <li><a href="#"><img src="Images\Vector1.svg" alt="Twitter icon" width="19.99px" height="19.96px"></a></li>
+                  <li><a href="#"><img src="Images\Vector2.svg" alt="Linkedin icon" width="20px" height="20px"></a></li>
+                  <li><a href="#"><img src="Images\Vector3.svg" alt="M icon" width="20px" height="16px"></a></li>
+                  <li><a href="#"><img src="Images\Vector4.svg" alt="Git icon" width="17.99px" height="20px"></a></li>
+                  <li><a href="#"><img src="Images\Vector5.svg" alt="Hands icon" width="14.17px" height="20px"></a></li>
+               </ul>
+            </div>
+         </div>
       </section>
-      <section class="ams">
+      <section id="dynamic-id" class="dynamic-class"></section>
+      <section id="ams" class="ams">
       <div class="mobile-about-myself">
          <h2>About Myself</h2>
          <p>
@@ -108,29 +85,29 @@
          <h3 class="letconnect_text"><a href="https://github.com/abiy006">LET'S CONNECT</a></h3>
          <div class="letconnect_icons">
             <ul>
-               <li><a href="#"><img src="Images\Vector4.svg" alt="" width="17.99px" height="20px"></a></li>
-               <li><a href="#"><img src="Images\Vector2.svg" alt="" width="20px" height="20px"></a></li>
-               <li><a href="#"><img src="Images\Vector5.svg" alt="" width="14.17px" height="20px"></a></li>
-               <li><a href="#"><img src="Images\Vector1.svg" alt="" width="19.99px" height="19.96px"></a></li>
-               <li><a href="#"><img src="Images\Vector3.svg" alt="" width="20px" height="16px"></a></li>
+               <li><a href="#"><img src="Images\Vector4.svg" alt="Twitter Icon" width="17.99px" height="20px"></a></li>
+               <li><a href="#"><img src="Images\Vector2.svg" alt="Linkedin Icon" width="20px" height="20px"></a></li>
+               <li><a href="#"><img src="Images\Vector5.svg" alt="M Icon" width="14.17px" height="20px"></a></li>
+               <li><a href="#"><img src="Images\Vector1.svg" alt="Github Icon" width="19.99px" height="19.96px"></a></li>
+               <li><a href="#"><img src="Images\Vector3.svg" alt="Hand Icon" width="20px" height="16px"></a></li>
             </ul>
          </div>
          <button>Get my resume</button>
          <div class="About-languages">
                <ul>
-                  <li class="about-lang-menu"><a href="#"><button><h3>Languages</h3><img src="Images\about_down_arrow.svg" alt="" width="14px" height="8px"></button></a></li>
+                  <li class="about-lang-menu"><a href="#"><button><h3>Languages</h3><img src="Images\about_down_arrow.svg" alt="Down arrow" width="14px" height="8px"></button></a></li>
                   <ul>
-                     <li><a href="#"><button><img src="Images\about_javascript2.svg" alt="" width="48px" height="48px"><h3>JavaScript</h3></button></a></li>
-                     <li><a href="#"><button><img src="Images\about_html2.svg" alt="" width="48px" height="48px"><h3>HTML</h3></button></a></li>
-                     <li><a href="#"><button><img src="Images\about_css2.svg" alt="" width="48px" height="48px"><h3>CSS</h3></button></a></li>
+                     <li><a href="#"><button><img src="Images\about_javascript2.svg" alt="JavaScript Icon" width="48px" height="48px"><h3>JavaScript</h3></button></a></li>
+                     <li><a href="#"><button><img src="Images\about_html2.svg" alt="HTML Icon" width="48px" height="48px"><h3>HTML</h3></button></a></li>
+                     <li><a href="#"><button><img src="Images\about_css2.svg" alt="CSS Icon" width="48px" height="48px"><h3>CSS</h3></button></a></li>
                   </ul>
-                  <li class="about-lang-menu"><a href="#"><button><h3>Frameworks</h3><img src="Images\about_side_arrow.svg" alt="" width="8px" height="14px"></button></a></li>
-                  <li class="about-lang-menu"><a href="#"><button><h3>Skills</h3><img src="Images\about_side_arrow.svg" alt="" width="8px" height="14px"></button></a></li>
+                  <li class="about-lang-menu"><a href="#"><button><h3>Frameworks</h3><img src="Images\about_side_arrow.svg" alt="Side Arrow" width="8px" height="14px"></button></a></li>
+                  <li class="about-lang-menu"><a href="#"><button><h3>Skills</h3><img src="Images\about_side_arrow.svg" alt="Side Arrow" width="8px" height="14px"></button></a></li>
                </ul>
          </div>
       </div>
       </section>
-      <section class="contact_me_mobile">
+      <section id="contactMobileId" class="contact_me_mobile">
          <h2>Contact me</h2>
          <p>If you have an application you are intersted in developing, a feature that you need built or a project that
             needs coding. I'd love to help with it</p>
@@ -143,106 +120,6 @@
          </form>
          <hr>
       </section>
-   </section>
-   <section class="desktop-section">
-      <header>
-            <div class="header-logo">
-               <li><a href="#"><img src="Images\MyLogo.svg" alt="" width="76px" height="20px"></a></li>
-            </div>
-            <div class="header-nav-taps">
-               <ul>
-                  <li><a href="#">Portofilo</a></li>
-                  <li><a href="#">About</a></li>
-                  <li><a href="#">Contact</a></li>
-               </ul>
-            </div>
-      </header>
-      <section class="desktop-landing">
-         <div class="desktop-landing-content">
-            <h1><span class="wrapper">I'm Alexandra.</span> <span class="wrapper">Glad to see you!</span></h1>
-            <p>
-               I'm a software developer! I can help you build a product ,
-               feature or website Look through some of my work and experience!
-               If you like what you see and have a project you need coded, don't hestiate to contact me.
-            </p>
-            <div class="lets-con-desk-txt">LET'S CONNECT</div>
-            <div class="lets-con-desk-icon">
-               <ul>
-                  <li><a href="#"><img src="Images\Vector1.svg" alt="" width="19.99px" height="19.96px"></a></li>
-                  <li><a href="#"><img src="Images\Vector2.svg" alt="" width="20px" height="20px"></a></li>
-                  <li><a href="#"><img src="Images\Vector3.svg" alt="" width="20px" height="16px"></a></li>
-                  <li><a href="#"><img src="Images\Vector4.svg" alt="" width="17.99px" height="20px"></a></li>
-                  <li><a href="#"><img src="Images\Vector5.svg" alt="" width="14.17px" height="20px"></a></li>
-               </ul>
-            </div>
-         </div>
-      </section>
-      <section class="desktop-card-section">
-         <section class="desktop-card">
-            <div class="desk_main_img1"></div>
-            <div class="desk_main_content">
-               <h2>Tonic</h2>
-               <div class="canopy"></div>
-               <p>A daily selection of privately personalized reads; no accounts or sign-ups required.</p>
-               <div class="lang-btn">
-                  <ul>
-                     <li><a href="#"><button>html</button></a></li>
-                     <li><a href="#"><button>css</button></a></li>
-                     <li><a href="#"><button>javaScript</button></a></li>
-                  </ul>
-               </div>
-               <div class="see-project-btn"><button>See Project</button></div>
-            </div>
-         </section>
-         <section class="desktop-card">
-            <div class="desk_main_content">
-               <h2>Multi-Post Stories</h2>
-               <div class="canopy"></div>
-               <p>Experimental content creation feature that allows users to add to an existing story over the course of a day without spamming their friends.</p>
-               <div class="lang-btn">
-                  <ul>
-                     <li><a href="#"><button>html</button></a></li>
-                     <li><a href="#"><button>css</button></a></li>
-                     <li><a href="#"><button>javaScript</button></a></li>
-                  </ul>
-               </div>
-               <div class="see-project-btn"><button>See Project</button></div>
-            </div>
-            <div class="desk_main_img2"></div>
-         </section>
-         <section class="desktop-card">
-            <div class="desk_main_img3"></div>
-            <div class="desk_main_content">
-               <h2>Multi-Post Stories</h2>
-               <div class="canopy"></div>
-               <p>Exploring the future of media in Facebook's first Virtual Reality app; a place to discover and enjoy 360 photos and videos on Gear VR.</p>
-               <div class="lang-btn">
-                  <ul>
-                     <li><a href="#"><button>html</button></a></li>
-                     <li><a href="#"><button>css</button></a></li>
-                     <li><a href="#"><button>javaScript</button></a></li>
-                  </ul>
-               </div>
-               <div class="see-project-btn"><button>See Project</button></div>
-            </div>
-         </section>
-         <section class="desktop-card">
-            <div class="desk_main_content">
-               <h2>Multi-Post Stories</h2>
-               <div class="canopy"></div>
-               <p>A smart assistant to make driving more safe, efficient, and fun by unlocking your most expensive computer: your car.</p>
-               <div class="lang-btn">
-                  <ul>
-                     <li><a href="#"><button>html</button></a></li>
-                     <li><a href="#"><button>css</button></a></li>
-                     <li><a href="#"><button>javaScript</button></a></li>
-                  </ul>
-               </div>
-               <div class="see-project-btn"><button>See Project</button></div>
-            </div>
-            <div class="desk_main_img4"></div>
-         </section>
-      </section>
       <section class="desktop_ams">
          <div class="about_part1">
             <h2>About Myself</h2>
@@ -251,29 +128,29 @@
                Look through some of my work and experiance! If you like what you see and have a project you need coded,
                don't hestiate to contact me.
             </p>
-            <div class="letconnect_text">LET'S CONNECT</div>
+            <h3 class="letconnect_text">LET'S CONNECT</h3>
             <div class="letconnect_icons">
                <ul>
-                  <li><a href="#"><img src="Images\Vector4.svg" alt="" width="17.99px" height="20px"></a></li>
-                  <li><a href="#"><img src="Images\Vector2.svg" alt="" width="20px" height="20px"></a></li>
-                  <li><a href="#"><img src="Images\Vector5.svg" alt="" width="14.17px" height="20px"></a></li>
-                  <li><a href="#"><img src="Images\Vector1.svg" alt="" width="19.99px" height="19.96px"></a></li>
-                  <li><a href="#"><img src="Images\Vector3.svg" alt="" width="20px" height="16px"></a></li>
+                  <li><a href="#"><img src="Images\Vector4.svg" alt="Github icon" width="17.99px" height="20px"></a></li>
+                  <li><a href="#"><img src="Images\Vector2.svg" alt="Linkedin icon" width="20px" height="20px"></a></li>
+                  <li><a href="#"><img src="Images\Vector5.svg" alt="Hand icon" width="14.17px" height="20px"></a></li>
+                  <li><a href="#"><img src="Images\Vector1.svg" alt="Twitter icon" width="19.99px" height="19.96px"></a></li>
+                  <li><a href="#"><img src="Images\Vector3.svg" alt="M icon" width="20px" height="16px"></a></li>
                </ul>
             </div>
             <div class="see-project-btn"><button>Get my resume</button></div>
          </div>
          <div class="about_part2">
             <ul>
-               <li><a href="#"><img src="Images\Frame 77.svg" alt="" width="90%" height="72px"></a>
+               <li><a href="#"><img src="Images\Frame 77.svg" alt="Languages" width="90%" height="72px"></a>
                   <ul>
-                     <li><a href="#"><img src="Images\Frame 9.svg" alt="" width="122px" height="120px"></a></li>
-                     <li><a href="#"><img src="Images\Frame 10.svg" alt="" width="122px" height="120px"></a></li>
-                     <li><a href="#"><img src="Images\Frame 11.svg" alt="" width="122px" height="120px"></a></li>
+                     <li><a href="#"><img src="Images\Frame 9.svg" alt="JavaScript" width="122px" height="120px"></a></li>
+                     <li><a href="#"><img src="Images\Frame 10.svg" alt="HTML" width="122px" height="120px"></a></li>
+                     <li><a href="#"><img src="Images\Frame 11.svg" alt="CSS" width="122px" height="120px"></a></li>
                   </ul>
                </li>
-               <li><a href="#"><img src="Images\Frame 88.svg" alt="" width="90%" height="72px"></a></li>
-               <li><a href="#"><img src="Images\Frame 99.svg" alt="" width="90%" height="72px"></a></li>
+               <li><a href="#"><img src="Images\Frame 88.svg" alt="Frameworks" width="90%" height="72px"></a></li>
+               <li><a href="#"><img src="Images\Frame 99.svg" alt="Skills" width="90%" height="72px"></a></li>
             </ul>
          </div>
       </section>
@@ -291,6 +168,38 @@
             </form>
          </div>
       </section>
-   </section>
+
+   <nav id="mobile-menu-page-id" class="mobile-menu-page-class">
+      <div id="mobile-menu-close-id" class="mobile-menu-close-class">
+          <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-6 h-6">
+            <path stroke-linecap="round" stroke-linejoin="round" d="M6 18L18 6M6 6l12 12" />
+          </svg>
+      </div>
+      <ul id="moblie-menu-list-ul">
+          <li>
+              <a href="/" class='link'>
+                  Portfolio
+              </a>
+          </li>
+          <li>
+              <a href="#ams" class='link'>
+                  About
+              </a>
+          </li>
+          <li>
+              <a href="#contactMobileId" class='link'>
+                  Contact
+              </a>
+          </li>
+      </ul>
+   </nav>
+
+   <dialog id="modal-id">
+   <Section id="header-dialog-section"></Section>
+   </dialog>
+
+   <script type="module" src="/JS/dynamic.js"></script>
+   <script type="module" src="/JS/menu.js"></script>
+   
 </body>
 </html>
